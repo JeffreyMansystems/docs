@@ -37,16 +37,9 @@ To learn how to do this, see [How to Link Your Free App to a Licensed Cloud Node
 
 Before migrating, you need to copy the data from the v3 node to the v4 node. After copying, test your app and correct errors if needed. Repeat this until all the errors are solved.
 
-#### 3.2.1 Backup
+#### 3.2.1 Downloading and Uploading the Deployment Package
 
-Transfer the backup data of the app on Mendix Cloud v3 to the app on Mendix Cloud v4 by follow these steps:
-
-1. Download a backup from your app hosted in Mendix Cloud v3 (for details, see [How to Download a Backup](/developerportal/howto/how-to-download-a-backup)).
-2. Upload the downloaded backup to your app hosted in Mendix Cloud v4 (for details, see [How to Restore a Backup](/developerportal/howto/how-to-restore-a-backup)).
-
-#### 3.2.2 Downloading and Uploading the Deployment Package
-
-Download the deployment package of your app hosted in cloud v3 and upload the deployment package to the app hosted in Cloud v4.
+Download the deployment package of your app hosted in Cloud v3 and upload the deployment package to the app hosted in Cloud v4.
 
 To download a deployment package, follow these steps:
 
@@ -56,9 +49,17 @@ To download a deployment package, follow these steps:
 
 To upload the deployment package, follow these steps:
 
-1. Go to **Environments** of the v4 App.
+1. Go to **Environments** of the v4 app.
 2. Below the **Deployment Package Repository**, click **Upload**.
 3. Browse and select the downloaded deployment package from your device.
+4. Start your app.
+
+#### 3.2.2 Backup
+
+Transfer the backup data of the app on Mendix Cloud v3 to the app on Mendix Cloud v4 by follow these steps:
+
+1. Download a backup from your app hosted in Mendix Cloud v3 (for details, see [How to Download a Backup](/developerportal/howto/how-to-download-a-backup)).
+2. Upload the downloaded backup to your app hosted in Mendix Cloud v4 (for details, see [How to Restore a Backup](/developerportal/howto/how-to-restore-a-backup)).
 
 #### 3.2.3 Configuration
 
